@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>pp</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="row header d-flex align-items-center">
+			<img class="logo" src="https://image.ibb.co/k7cmVT/logo_w.png" alt="">
+			<a id="reload" href="#">Home link</a>
+			<a id="pixelp" href="#">Pixelplex link</a>
+		</div>
+		<div class="row main">
+			<div class="task-nmb">
+				Task #2
+			</div>
+			<div class="col-md-6">
+				<input type="text" id="wr-text" placeholder="Enter text">
+				<button id="addText">Add text</button>
+			</div>
+			<div class="col-md-6" id="myList">
+				<p>List:</p>
+			</div>
+		</div>
+		<div class="row footer">
+			<div class="task-nmb">
+				Task #1
+			</div>
+			<div class="col-md-6 footer-left">
+				<p>Value: <span id="demo"></span></p>
+				<input type="range" min="1" max="5000" value="2500" step="100" id="myRange">
+				<p>0</p>
+				<p>5000</p>
+			</div>
+			<div class="col-md-6 footer-right">
+				<p>Counter:</p>
+				<div><span id="timer" class="value">0</span> ms</div>​
+			</div>
+		</div>
+	</div>
+		
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
